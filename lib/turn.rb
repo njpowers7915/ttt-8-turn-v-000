@@ -28,7 +28,7 @@ def valid_move?(board, index)
   end
 end
 
-def move(board, index, character)
+def move(board, index, character = "X")
   board[index] = character
   return board
 end
@@ -38,5 +38,9 @@ def turn(board)
   user_input = gets
   input_to_index(user_input)
   valid_move?(board, index)
-    if 
+    if true
+      
+    else
+      
+    end
 end
