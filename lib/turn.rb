@@ -34,11 +34,5 @@ def move(board, index, character = "X")
 end
 
 def turn(board)
-  until valid_move?(board, index) == true
-    puts "Please enter 1-9:"
-    user_input = gets
-    input_to_index(user_input)
-    valid_move?(board, index)
-  end
-  move(board, index, character = "X")
+  puts "Please enter 1-9:"
 end
